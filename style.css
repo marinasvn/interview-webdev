@@ -3,10 +3,8 @@ body {
     padding: 0px;
     width: 100%;
     height: 100%;
-    background-color: #FAFFC3;
+    background-color: #DFFFD4;
     font-family: 'Quicksand', sans-serif;
-    background-image: url("./fond.jpg");
-    
 }
 
 .clear {clear: both;}
@@ -16,8 +14,8 @@ body {
     width: 70%;
     height: auto;
     border-radius: 20px;
-    margin-top: 40vh; /* poussé de la moitié de hauteur de viewport */
-    transform: translateY(-40%); /* tiré de la moitié de sa propre hauteur */
+    margin-top: 30vh; /* poussé de la moitié de hauteur de viewport */
+    transform: translateY(-30%); /* tiré de la moitié de sa propre hauteur */
 }
 
 .nav {
@@ -34,29 +32,23 @@ body {
     display: inline-block;
     list-style: none;
     border-radius: 10px;
-    background: linear-gradient(45deg,#0DF3C4,teal,#0DF3C4);
-    background-size: 300% 300%;
+    background-color: #F4D4FF;
     box-shadow: 5px 5px 0 #7E589D;
     transition: all 0.3s ease;
     padding: 10px 15px;
 }
 
 .nav li:hover {
-    animation: gradient 5s ease infinite;
     box-shadow: 2px 2px 0 #7E589D;
 }
-@keyframes gradient {
-  50% {
-    background-position: 100% 0;
-  }
-}
+
 
 .sous-menu {
     float: left;
     width: 25%;
     height: auto;
     margin: 0px;
-    background-color: #0DF3C4;
+    background-color: #D4F4FF;
     border-radius: 20px;
     box-shadow: 5px 5px 0 #7E589D;
 }
@@ -66,7 +58,7 @@ body {
     margin: 10px 0px;
 }
 
-.sous-menu li a {color: #7E589D;}
+.sous-menu li a {color: #707070;}
 
 /*-----------------main------------------*/
 
@@ -77,7 +69,7 @@ body {
     height: 350px;
     overflow: hidden;
     border-radius: 20px;
-    background-color: #0DF3C4;
+    background-color: #FFDFD4;
     box-shadow: 5px 5px 0 #7E589D;
 }
 
@@ -85,11 +77,6 @@ body {
     height: auto;
     width: 70%;
     margin: 0px auto;
-  /*  border: 1px solid blue;*/
-/* display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;*/
 }
 
 section {
@@ -101,19 +88,16 @@ section {
 
 section > p {
     height: auto;
-    border-radius: 20px;
-    background-color: #FAFFC3;
-    color: #7E589D;
-    padding: 15px;
     text-align: justify;
     text-justify: inter-word;
+    color: #707070;
 }
 
 /*---------------------------------------*/
 
 a {
     text-decoration: none;
-    color: #FAFFC3;
+    color: #707070;
 }
 
 #avatar {
@@ -122,7 +106,18 @@ a {
     float: left;
 }
 
+/*-------------citation----------------*/
 
+.citation {
+    float: left;
+    width: 25%;
+    text-align: center;
+    font-style: italic;
+    background-color: #F4D4FF;
+    border-radius: 15px;
+    padding: 10px 0px;
+    box-shadow: 5px 5px 0 #7E589D;
+}
 
 
 
