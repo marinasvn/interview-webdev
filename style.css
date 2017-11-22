@@ -5,6 +5,8 @@ body {
     height: 100%;
     background-color: #FAFFC3;
     font-family: 'Quicksand', sans-serif;
+    background-image: url("./fond.jpg");
+    
 }
 
 .clear {clear: both;}
@@ -114,27 +116,11 @@ a {
     color: #FAFFC3;
 }
 
-/*------------------ghost------------------------*/
-
-.ghost {
-  animation: float 3s ease-out infinite;
-    width: 120px;
-    height: 200px;
-    margin-left: 30px;
+#avatar {
+    max-width: 100%;
+    height: auto;
     float: left;
 }
-
-@keyframes float {
-  50% {
-     transform: translate(0, 20px);
-  }
-}
-
-.shadow {
-  animation: shrink 3s ease-out infinite;
-    margin-left: 30px;
-}
-
 
 
 
