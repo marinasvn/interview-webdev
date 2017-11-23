@@ -1,0 +1,174 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #FFEBB6;
+    font-family: 'Quicksand', sans-serif;
+    min-height: 100vh;
+}
+
+.container {
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%);
+    
+    width: 80vw;
+    height: 90vh;
+    background-color: #29C08B;
+    
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-left: 10px solid #fff;
+    border-top: 10px solid #fff;
+    border-right: 10px solid #fff;
+}
+/*----------nav---------------*/
+.nav-layer {
+    position: absolute;
+    top: 15%;
+    z-index: 1;
+    background-color: #D9847C;
+    width: 15vw;
+    height: 35vh;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.nav {
+    position: absolute;
+    top: 15%;
+    z-index: 2;
+    width: 15vw;
+    height: 30vh;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+li {
+    list-style: none;
+    color: #0F205A;
+}
+
+/*-------------------*/
+.aside-layer {
+    background-color: #E6E64E;
+    position: absolute;
+    z-index: 1;
+    right: 0%;
+    top: 35%;
+    
+    width: 20vw;
+    height: 30vh;
+    
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.sous-menu {
+    position: absolute;
+    z-index: 2;
+    right: 0%;
+    top: 35%;
+    
+    width: 20vw;
+    height: 30vh;
+}
+.sous-menu > ul {
+    display: flex;
+    flex-direction: column;
+    height: 25vh;
+}
+.sous-menu li a {color: #0F205A;line-height: 200%;} 
+
+/*-----------------main------------------*/
+
+.main {
+    position: relative;
+    left: 20%;
+    top: 20%;
+    width: 45vw;
+    height: 43vh;  
+    overflow: hidden;
+    background-color: #FFEBB6;
+    border-radius: 20px;
+    border: 5px solid #fff;
+}
+
+.content {
+    height: auto;
+    width: 90%;
+    margin: 0px auto;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 43vh;
+}
+
+section > p {
+    height: auto;
+    text-align: justify;
+    text-justify: inter-word;
+    color: #0F205A;
+}
+
+/*---------------------------------------*/
+
+a {
+    text-decoration: none;
+    color: #0F205A;
+}
+
+.citation {
+    font-family: 'Amatic SC', cursive;
+    font-size: 13vw;
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+    left:0px;
+    right: 0px;
+    margin: 0px;
+    padding: 0px;
+    opacity: 0.4;
+    color: #0F205A;
+}
+
+#avatar, #floriane-avatar {
+    position: absolute;
+    left: 40%;
+    top: -10%;
+    z-index: 1;
+    width: 200px;
+    height: auto;
+    margin: 0px;
+}
+
+#makingof, #entreprise {
+    position: absolute;
+    left: 31%;
+    top: -10%;
+    z-index: 1;
+    height: 200px;
+    width: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
