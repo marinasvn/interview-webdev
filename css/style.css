@@ -203,12 +203,12 @@ a {
     
     .nav {
         width: 15vw;
-        height: 50vh;
-        top: 25%;
+        height: 40vh;
+        top: 30%;
     }
     
     .sous-menu {
-        top: 35%;
+        top: 45%;
         width: 20vw;
         font-size: 0.75em;
     }
@@ -259,12 +259,13 @@ a {
     }
     
     .nav {
+        top: 25%
         width: 15vw;
         height: 50vh;
     }
     
     .sous-menu {
-        top: 40%;
+        top: 45%;
         width: 19vw;
         font-size: 0.7em;
     }
@@ -304,7 +305,7 @@ a {
 
 /*------------------------------*/
 
-@media all and (max-width:736px) {
+@media all and (max-width:980px) {
     
     .nav li {
         left: -90px;
@@ -410,16 +411,16 @@ a {
 
 /*------------------------------*/
 
-@media all and (max-width:568px) {
+@media all and (max-width:639px) {
     
     .nav li {
-        left: -55px;
-        padding: 5px 10px 5px 0px;
+        left: -50px;
+        padding: 5px 20px 5px 0px;
         font-size: 0.6em;
     }
     
     .nav {
-        width: 12vw;
+        width: 15vw;
         height: 50vh;
     }
     
